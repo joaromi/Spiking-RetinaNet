@@ -7,5 +7,5 @@ As a trade-off many side features of the original library have been removed. The
 
 Configuration used:
 * Python       3.8.6
-* tensorflow   2.3.1
+* TensorFlow   2.3.1
 * Keras        2.4.3
