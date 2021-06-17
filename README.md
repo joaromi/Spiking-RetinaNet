@@ -1,7 +1,5 @@
 # Spiking-RetinaNet
 
-[WIP] The code is not fully uploaded. Please come back in a few weeks.
-
 This repository corresponds to the research documented in: [RetinaNet Object Detector based on Analog-to-Spiking Neural Network Conversion](https://arxiv.org/abs/2106.05624).
 
 The code stems from the library [SNN_Toolbox](https://github.com/NeuromorphicProcessorProject/snn_toolbox), modifying it to address object detection problems.
