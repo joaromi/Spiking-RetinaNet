@@ -1,6 +1,5 @@
 [paths]
 path_wd = ./RNet_to_SNN_files
-dataset_path = ./RNet_to_SNN_files
 filename_ann = RNet
 
 [input]
@@ -8,19 +7,15 @@ poisson_input = False
 norm_conv = False
 
 [tools]
-evaluate_ann = True
 normalize = True
 
 [normalization]
+num_to_norm = 1
 percentile = 99.99
 method = 1
-num_to_norm = 1000
-save_interval = 100
 
 [simulation]
-simulator = INI
 duration = 1000
-num_to_test = 40
 batch_size = 1
 keras_backend = tensorflow
 
